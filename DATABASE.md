@@ -39,6 +39,11 @@ Stores information about game stages/maps.
 | list_order | int(3) | DEFAULT NULL | Order for displaying stages in lists |
 | stage_type | varchar(45) | DEFAULT NULL | Type of stage (e.g., starter, counter-pick) |
 | active | tinyint(4) | DEFAULT 1 | Whether the stage is currently active/available |
+| ranked_singles | tinyint(4) | DEFAULT 1 | Whether the stage is available in ranked singles |
+| casual_singles | tinyint(4) | DEFAULT 1 | Whether the stage is available in casual singles |
+| ranked_doubles | tinyint(4) | DEFAULT 1 | Whether the stage is available in ranked doubles |
+| casual_doubles | tinyint(4) | DEFAULT 1 | Whether the stage is available in casual doubles |
+| aetherian | tinyint(4) | DEFAULT 1 | Whether the stage is available in Aetherian mode |
 
 ### Seasons
 Stores information about competitive seasons.
